@@ -260,7 +260,7 @@ var loadTasks = function () {
     console.log("Saved tasks found!");
     // else, load up saved tasks
 
-    // parse into array of objects
+ // parse into array of objects
     savedTasks = JSON.parse(savedTasks);
 
     // loop through savedTasks array
